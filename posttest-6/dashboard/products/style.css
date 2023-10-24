@@ -1,0 +1,114 @@
+.active {
+    color: #f1f1f1!important;
+}
+
+.btn-create {
+    margin: 20px 0;
+    float: right;
+}
+
+.btn-create a{
+    text-decoration: none;
+    background-color: burlywood;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+table tr td, table tr th {
+    padding: 10px;
+}
+
+table tr td.actions {
+    text-align: center;
+    width: 20%;
+}
+
+a.btn-action {
+    padding: 5px 5px 0 5px;
+    border-radius: 5px;
+}
+
+a.view {
+    background-color: aquamarine;
+}
+
+a.edit {
+    background-color: yellow;
+}
+
+a.delete {
+    background-color: red;
+}
+
+.btn-back {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.btn-back a {
+    text-decoration: none;
+    background-color: darkseagreen;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.form-create {
+    padding: 10px;
+}
+
+.form-create form .form-element {
+    margin-bottom: 10px;
+}
+
+.form-create form .form-element label {
+    display: block;
+}
+
+.form-create form .form-element input, .form-create form .form-element textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid;
+}
+
+.form-create form .form-element textarea {
+    height: 100px;
+}
+
+.form-create form .btn-submit {
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    float: right;
+    margin-top: 10px;
+    background-color: burlywood;
+}
+
+.form-create form .btn-submit:hover {
+    cursor: pointer;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.container .image img {
+    width: 60%;
+}
+
+.alert {
+    margin: 10px 0;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.alert.success {
+    background-color: lightgreen;
+}
+
+.alert.fail {
+    background-color: pink;
+}
