@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital@0;1&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 300px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #662549; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+  display: grid;
+}
+
+.sidenav .logo {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Libre Bodoni', serif;
+}
+
+.sidenav .links {
+    align-items: center;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+  text-align: center;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .logout {
+    margin: 0 auto;
+    /* align-items: self-end; */
+}
+
+.sidenav .logout button {
+    /* align-items: baseline; */
+    color: white;
+    background-color: transparent;
+    border: 0;
+    font-size: 17px;
+}
+
+.sidenav .logout button:hover {
+    cursor: pointer;
+}
+
+/* Style page content */
+.main {
+  margin-left: 300px; /* Same as the width of the sidebar */
+  padding: 20px;
+}
+
+.main .greeting {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
